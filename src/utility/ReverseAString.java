@@ -10,11 +10,11 @@ public class ReverseAString {
         //char firsr_ch = str.charAt(0);
         //String last_ch = str.substring(str.length()- 1);
         String reverse = "";
-        for ( int i = str.length()- 1; i >=0 ; i-- ){
-            char ch = str.charAt(i) ;
+        for (int i = str.length() - 1; i >= 0; i--) {
+            char ch = str.charAt(i);
             reverse += ch;
         }
         System.out.println(reverse);
 
-
+    }
     }
